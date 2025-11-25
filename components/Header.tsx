@@ -76,7 +76,7 @@ export function Header({ className = "" }: HeaderProps) {
               label="GitHub"
             />
             <SocialLink
-              href="mailto:eliaa.zonta@gmail.com"
+              href="mailto:elia.zontaa@gmail.com"
               icon={<MailIcon />}
               label="Email"
             />
