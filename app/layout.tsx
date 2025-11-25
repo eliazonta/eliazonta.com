@@ -62,7 +62,7 @@ const abcDiatype = localFont({
 
 export const metadata: Metadata = {
   title: "Zonta Elia",
-  description: "Personal website of Zonta Elia",
+  description: "Elia's page",
   icons: {
     // icon: [{ url: "/favicon.ico", sizes: "any" }],
     icon: [{ url: "🌊", sizes: "any" }],
