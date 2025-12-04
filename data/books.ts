@@ -1,3 +1,5 @@
+import { a } from "framer-motion/dist/types.d-BJcRxCew";
+
 export const books = [
   {
     title: "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones",
@@ -442,5 +444,122 @@ export const books = [
     author: "Friedrich Nietzsche",
     description: "A philosophical work challenging traditional morality and advocating for a revaluation of values based on individual strength and creativity.",
     link: "https://www.amazon.com/Beyond-Good-Evil-Friedrich-Nietzsche/dp/014044923X"
+  },
+  {
+    title: "Surrounded by Idiots: The Four Types of Human Behavior and How to Effectively Communicate with Each in Business (and in Life)",
+    author: "Thomas Erikson",
+    description: "A book about understanding different personality types and improving communication in both professional and personal settings.",
+    link: "https://www.amazon.com/dp/1250179939/?bestFormat=true&k=surrounded%20by%20idiots%20book"
+  },
+  {
+    title: "Introduction to C++ for Financial Engineers: An Object-Oriented Approach",
+    author: "Duffy, Daniel J.",
+    description: "A comprehensive introduction to C++ programming with a focus on applications in financial engineering.",
+    link: "https://www.amazon.com/Introduction-Financial-Engineers-Object-Oriented-Approach/dp/0470015381?nsdOptOutParam=true&sr=8-1"
+  },
+  {
+    title: "Storie di ordinaria follia",
+    author: "Charles Bukowski",
+    description: "A collection of semi-autobiographical short stories that explore the lives of the downtrodden and the absurdities of everyday life.",
+    link: "https://www.amazon.com/Storie-ordinaria-follia-Eiaculazioni-Esibizioni-ebook/dp/B01MRRV9CF?sr=8-1"
+  },
+  {
+    title: "Programming Massively Parallel Processors: A Hands-on Approach",
+    author: "David B. Kirk and Wen-mei W. Hwu",
+    description: "A comprehensive guide to programming massively parallel processors, focusing on GPU computing and CUDA programming.",
+    link: "https://www.amazon.com/Programming-Massively-Parallel-Processors-Hands/dp/0124159923"
+  },
+  {
+    title: "The Psychology of Money",
+    author: "Morgan Housel",
+    description: "A book that explores the psychological aspects of money and investing, emphasizing the importance of behavior over knowledge.",
+    link: "https://www.amazon.com/Psychology-Money-Timeless-lessons-happiness/dp/0857197681"
+  },
+  {
+    title: "C++ for Quantitative Finance",
+    author: "Halls-Moore, John",
+    description: "A practical guide to using C++ for quantitative finance applications, covering key concepts and techniques.",
+    link: "https://www.goodreads.com/book/show/29071897-c-for-quantitative-finance"
+  },
+  {
+    title: "Quantitative Finance: An Object-Oriented Approach in C++",
+    author: "Schlogl, Erik",
+    description: "An in-depth exploration of quantitative finance using object-oriented programming techniques in C++.",
+    link: "https://www.amazon.com/Quantitative-Finance-Object-Oriented-Financial-Mathematics-ebook/dp/B08R2FMZBR?sr=8-1"
+  },
+  {
+    title: "C++ Templates: The Complete Guide",
+    author: "David Vandevoorde, Nicolai M. Josuttis, Douglas Gregor",
+    description: "A comprehensive guide to C++ templates, covering their design, implementation, and advanced usage.",
+    link: "https://www.amazon.com/C-Templates-Complete-David-Vandevoorde/dp/0321714121"
+  }, 
+  {
+    title: "Effective Modern C++: 42 Specific Ways to Improve Your Use of C++11 and C++14",
+    author: "Scott Meyers",
+    description: "A guide to the best practices for using C++11 and C++14, focusing on modern features and techniques.",
+    link: "https://www.amazon.com/Effective-Modern-Specific-Ways-Improve/dp/1491903996"
+  },
+  {
+    title: "The Pleasures of Probability",
+    author: "Isaac Richard Lockhart",
+    description: "An engaging introduction to probability theory, exploring its concepts and applications in a variety of contexts.",
+    link: "https://www.amazon.com/Pleasures-Probability-Undergraduate-Texts-Mathematics/dp/038794415X?sr=8-1"
+  },
+  {
+    title: "Tuesdays with Morrie",
+    author: "Mitch Albom",
+    description: "A memoir about the lessons learned from a dying professor, focusing on life, love, and happiness.",
+    link: "https://www.amazon.com/Tuesdays-Morrie-Mitch-Albom/dp/076790592X"
+  },
+  {
+    title: "Pensieri",
+    author: "Marco Aurelio",
+    description: "A collection of personal writings by the Roman Emperor Marcus Aurelius, reflecting on Stoic philosophy and guidance for living a virtuous life.",
+    link: ""
+  },
+  {
+    title: "Le notti bianche",
+    author: "Fëdor Dostoevskij",
+    description: "Un romanzo breve che racconta la storia di un sognatore solitario che incontra una giovane donna durante le notti bianche di San Pietroburgo.",
+    link: ""
+  },
+  {
+    title: "Rich Dad Poor Dad",
+    author: "Robert T. Kiyosaki",
+    description: "A personal finance book that contrasts the financial philosophies of the author's two 'dads'—his biological father (Poor Dad) and his best friend's father (Rich Dad).",
+    link: "https://www.amazon.com/Rich-Dad-Poor-Teach-Middle/dp/1612680194"
+  },
+  {
+    // the little book that makes you rich
+    title: "The Little Book That Makes You Rich",
+    author: "Louis Navellier",
+    description: "A book that provides investment strategies and insights to help readers build wealth through smart investing.",
+    link: "https://www.amazon.com/Little-Book-That-Makes-Rich/dp/047013772X?sr=1-1"
+  },
+  {
+    // the defining decade
+    title: "The Defining Decade: Why Your Twenties Matter--And How to Make the Most of Them Now",
+    author: "Meg Jay",
+    description: "A book that emphasizes the importance of the twenties in shaping one's future and provides advice on how to make the most of this critical decade.",
+    link: "https://www.amazon.com/Defining-Decade-Your-Twenties-Matter/dp/1538754231?sr=8-1"
+  },
+  {
+    title: "An Introduction to Probabilistic Modeling",
+    author: "Pierre Bremaud",
+    description: "A comprehensive introduction to probabilistic modeling, covering key concepts and techniques used in various fields such as statistics, machine learning, and data science.",
+    link: "https://www.amazon.com/Introduction-Probabilistic-Modeling-Undergraduate-Mathematics/dp/0387964606?sr=8-1"
+  },
+  {
+    title: "No Bullshit Guide to Linear Algebra",
+    author: "Ivan Savov",
+    description: "A straightforward and practical guide to linear algebra, focusing on clear explanations and real-world applications.",
+    link: "https://www.amazon.com/No-bullshit-guide-linear-algebra/dp/0992001021?sr=8-2"
+  },
+  {
+    title: "No Bullshit Guide to Math and Physics",
+    author: "Ivan Savov",
+    description: "A clear and concise guide to the fundamental concepts of math and physics, designed to help readers build a strong foundation in these subjects.",
+    link: "https://www.amazon.com/No-bullshit-guide-math-physics/dp/0992001005?sr=8-1"
   }
 ]
+	
