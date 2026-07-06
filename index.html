@@ -593,9 +593,9 @@
       <span class="idx">01</span>
     </div>
     <div class="body-text">
-      <p>My main interest is the intersection between mathematics and computer science, where theory meets computation.</p>
-      <p>Started from the keen research of efficiency and performances through HPC and GPU methods and pivoted into theoretically heavier studies on stochastic processes, statistics and ML.</p>
-      <p>Former swimmer. Math brain. Now chasing alpha.</p>
+      <p>I'm in the space where mathematics and computer science converge.</p>
+      <p>My path began on the practical side, HPC and GPUs and friends, gradually got pulled toward the theoretical side: stochastic processes, statistics, and machine learning (back when superintelligence wasn't a thing).</p>
+      <p>Former swimmer and e-sports player. Math brain. Now raising the bar.</p>
     </div>
   </section>
 
@@ -659,6 +659,7 @@
           <div class="entry-loc">Lausanne, Switzerland</div>
         </div>
         <div class="entry-sub">EPFL — Anthropic-funded project</div>
+        <div class="entry-desc">Mechinterp ? Agents ? Knowledge Graphs ?</div>
       </div>
 
       <div class="entry">
@@ -681,6 +682,39 @@
       <span class="idx">04</span>
     </div>
     <div class="entries">
+
+      <div class="entry">
+        <div class="entry-header">
+          <div class="entry-title">OS-Max — Low-Latency HFT Engine (C++)</div>
+          <div class="entry-loc">2026</div>
+        </div>
+        <div class="entry-desc" style="margin-bottom:0">
+          A low-latency trading engine in C++20: lock-free single-producer/single-consumer ring buffers, cache-line-aligned data structures, integer-only (zero-FPU) technical indicators, and zero-copy telemetry streamed to a Python dashboard over a memory-mapped ring buffer. Runs a full tick -> bar -> indicator -> strategy -> execution pipeline across dedicated threads on simulated or replayed market data.
+        </div>
+        <a href="https://github.com/eliazonta/OS-max" target="_blank" rel="noopener" class="project-link">View Repository ↗</a>
+      </div>
+
+      <div class="entry">
+        <div class="entry-header">
+          <div class="entry-title">Alpha Decay Predictor — kdb+/q x Python HFT Research</div>
+          <div class="entry-loc">2026</div>
+        </div>
+        <div class="entry-desc" style="margin-bottom:0">
+          Measures how fast an order-book signal decays on real NASDAQ limit-order-book (LOBSTER) data. Microstructure feature engineering runs natively in kdb+/q, streamed to Python over a PyKX IPC bridge, with a LightGBM model per prediction horizon. Emphasis on leakage-aware evaluation — purged walk-forward splits, moving-block bootstrap confidence intervals, and guards against degenerate targets and mechanical micro-price artifacts.
+        </div>
+        <a href="https://github.com/eliazonta/alpha-decay-predictor" target="_blank" rel="noopener" class="project-link">View Repository ↗</a>
+      </div>
+
+      <div class="entry">
+        <div class="entry-header">
+          <div class="entry-title">Polymarket Prediction-Market Arbitrage &amp; Maker Edge (Python)</div>
+          <div class="entry-loc">2026</div>
+        </div>
+        <div class="entry-desc" style="margin-bottom:0">
+          A depth- and fee-aware scanner for cross-outcome ("dutch-book") arbitrage in Polymarket's multi-outcome markets, showing that the apparent edge does not survive taker fees and real order-book depth and quantifying where the durable edge actually sits on the maker side: breakeven fill time from measured volatility, the liquidity-reward subsidy, and risk-free basket inventory netting. Built on live CLOB order books with a tested analytics core.
+        </div>
+        <a href="https://github.com/eliazonta/pmarket-arb" target="_blank" rel="noopener" class="project-link">View Repository ↗</a>
+      </div>
 
       <div class="entry">
         <div class="entry-header">
