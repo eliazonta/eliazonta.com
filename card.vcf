@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Zonta;Elia;;;
+FN:Elia Zonta
+TEL;TYPE=CELL:+39 366 535 9945
+EMAIL;TYPE=INTERNET,HOME:elia.zontaa@gmail.com
+EMAIL;TYPE=INTERNET,WORK:ezonta@mit.edu
+item1.URL:https://www.eliazonta.com/
+item1.X-ABLabel:Website
+item2.URL:https://www.linkedin.com/in/eliazonta/
+item2.X-ABLabel:LinkedIn
+END:VCARD
