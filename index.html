@@ -713,7 +713,7 @@
         <div class="entry-desc" style="margin-bottom:0">
           A depth- and fee-aware scanner for cross-outcome ("dutch-book") arbitrage in Polymarket's multi-outcome markets, showing that the apparent edge does not survive taker fees and real order-book depth and quantifying where the durable edge actually sits on the maker side: breakeven fill time from measured volatility, the liquidity-reward subsidy, and risk-free basket inventory netting. Built on live CLOB order books with a tested analytics core.
         </div>
-        <a href="https://github.com/eliazonta/pmarket-arb" target="_blank" rel="noopener" class="project-link">View Repository ↗</a>
+        <a href="https://github.com/eliazonta/pmarket_arb" target="_blank" rel="noopener" class="project-link">View Repository ↗</a>
       </div>
 
       <div class="entry">
@@ -725,6 +725,17 @@
           Simulation of the auto-deleveraging cascade triggered by the May 2021 flash crash on the Bitcoin market. Custom simulator for margin trading and auto-deleveraging mechanisms, focusing on replicating the dynamics of the event and analyzing systemic risk implications. Implemented in Python with detailed documentation and visualizations.
         </div>
         <a href="https://github.com/eliazonta/ADL-BTC/" target="_blank" rel="noopener" class="project-link">View Repository ↗</a>
+      </div>
+
+      <div class="entry">
+        <div class="entry-header">
+          <div class="entry-title">Spam Classification &amp; Model-Selection Review (Python)</div>
+          <div class="entry-loc">2026</div>
+        </div>
+        <div class="entry-desc" style="margin-bottom:0">
+          Eleven classifiers across five tiers on the UCI Spambase corpus, built to answer not only which model wins but which were worth training at all. LightGBM tops the leaderboard (test F1 0.9407, 10-fold CV 0.9483 ± 0.0074), but the interesting result is the audit: the four tree models' errors correlate at 0.71–0.85, which predicts before running it that the soft-vote ensemble scores below its own best member. An accuracy-vs-fit-cost analysis separates genuinely better models from merely more expensive ones, trimming eleven candidates to a five-model roster. Written as a reactive marimo notebook, and explicit about the 391 duplicate rows that inflate every published Spambase score — including its own.
+        </div>
+        <a href="https://github.com/eliazonta/spambase-spam-classification" target="_blank" rel="noopener" class="project-link">View Repository ↗</a>
       </div>
 
     </div>
