@@ -685,24 +685,13 @@
 
       <div class="entry">
         <div class="entry-header">
-          <div class="entry-title">OS-Max — Low-Latency HFT Engine (C++)</div>
+          <div class="entry-title">Spam Classification &amp; Model-Selection Review (Python)</div>
           <div class="entry-loc">2026</div>
         </div>
         <div class="entry-desc" style="margin-bottom:0">
-          A low-latency trading engine in C++20: lock-free single-producer/single-consumer ring buffers, cache-line-aligned data structures, integer-only (zero-FPU) technical indicators, and zero-copy telemetry streamed to a Python dashboard over a memory-mapped ring buffer. Runs a full tick -> bar -> indicator -> strategy -> execution pipeline across dedicated threads on simulated or replayed market data.
+          Eleven classifiers across five tiers on the UCI Spambase corpus, built to answer not only which model wins but which were worth training at all. LightGBM tops the leaderboard (test F1 0.9407, 10-fold CV 0.9483 ± 0.0074), but the interesting result is the audit: the four tree models' errors correlate at 0.71–0.85, which predicts before running it that the soft-vote ensemble scores below its own best member. An accuracy-vs-fit-cost analysis separates genuinely better models from merely more expensive ones, trimming eleven candidates to a five-model roster. Written as a reactive marimo notebook, and explicit about the 391 duplicate rows that inflate every published Spambase score — including its own.
         </div>
-        <a href="https://github.com/eliazonta/OS-max" target="_blank" rel="noopener" class="project-link">View Repository ↗</a>
-      </div>
-
-      <div class="entry">
-        <div class="entry-header">
-          <div class="entry-title">Alpha Decay Predictor — kdb+/q x Python HFT Research</div>
-          <div class="entry-loc">2026</div>
-        </div>
-        <div class="entry-desc" style="margin-bottom:0">
-          Measures how fast an order-book signal decays on real NASDAQ limit-order-book (LOBSTER) data. Microstructure feature engineering runs natively in kdb+/q, streamed to Python over a PyKX IPC bridge, with a LightGBM model per prediction horizon. Emphasis on leakage-aware evaluation — purged walk-forward splits, moving-block bootstrap confidence intervals, and guards against degenerate targets and mechanical micro-price artifacts.
-        </div>
-        <a href="https://github.com/eliazonta/alpha-decay-predictor" target="_blank" rel="noopener" class="project-link">View Repository ↗</a>
+        <a href="https://github.com/eliazonta/spambase-spam-classification" target="_blank" rel="noopener" class="project-link">View Repository ↗</a>
       </div>
 
       <div class="entry">
@@ -718,6 +707,28 @@
 
       <div class="entry">
         <div class="entry-header">
+          <div class="entry-title">Alpha Decay Predictor — kdb+/q x Python HFT Research</div>
+          <div class="entry-loc">2026</div>
+        </div>
+        <div class="entry-desc" style="margin-bottom:0">
+          Measures how fast an order-book signal decays on real NASDAQ limit-order-book (LOBSTER) data. Microstructure feature engineering runs natively in kdb+/q, streamed to Python over a PyKX IPC bridge, with a LightGBM model per prediction horizon. Emphasis on leakage-aware evaluation — purged walk-forward splits, moving-block bootstrap confidence intervals, and guards against degenerate targets and mechanical micro-price artifacts.
+        </div>
+        <a href="https://github.com/eliazonta/alpha-decay-predictor" target="_blank" rel="noopener" class="project-link">View Repository ↗</a>
+      </div>
+
+      <div class="entry">
+        <div class="entry-header">
+          <div class="entry-title">OS-Max — Low-Latency HFT Engine (C++)</div>
+          <div class="entry-loc">2026</div>
+        </div>
+        <div class="entry-desc" style="margin-bottom:0">
+          A low-latency trading engine in C++20: lock-free single-producer/single-consumer ring buffers, cache-line-aligned data structures, integer-only (zero-FPU) technical indicators, and zero-copy telemetry streamed to a Python dashboard over a memory-mapped ring buffer. Runs a full tick -> bar -> indicator -> strategy -> execution pipeline across dedicated threads on simulated or replayed market data.
+        </div>
+        <a href="https://github.com/eliazonta/OS-max" target="_blank" rel="noopener" class="project-link">View Repository ↗</a>
+      </div>
+
+      <div class="entry">
+        <div class="entry-header">
           <div class="entry-title">Auto-Deleveraging Simulation on BTC May 2021 Flash Crash</div>
           <div class="entry-loc">2026</div>
         </div>
@@ -727,16 +738,6 @@
         <a href="https://github.com/eliazonta/ADL-BTC/" target="_blank" rel="noopener" class="project-link">View Repository ↗</a>
       </div>
 
-      <div class="entry">
-        <div class="entry-header">
-          <div class="entry-title">Spam Classification &amp; Model-Selection Review (Python)</div>
-          <div class="entry-loc">2026</div>
-        </div>
-        <div class="entry-desc" style="margin-bottom:0">
-          Eleven classifiers across five tiers on the UCI Spambase corpus, built to answer not only which model wins but which were worth training at all. LightGBM tops the leaderboard (test F1 0.9407, 10-fold CV 0.9483 ± 0.0074), but the interesting result is the audit: the four tree models' errors correlate at 0.71–0.85, which predicts before running it that the soft-vote ensemble scores below its own best member. An accuracy-vs-fit-cost analysis separates genuinely better models from merely more expensive ones, trimming eleven candidates to a five-model roster. Written as a reactive marimo notebook, and explicit about the 391 duplicate rows that inflate every published Spambase score — including its own.
-        </div>
-        <a href="https://github.com/eliazonta/spambase-spam-classification" target="_blank" rel="noopener" class="project-link">View Repository ↗</a>
-      </div>
 
     </div>
   </section>
